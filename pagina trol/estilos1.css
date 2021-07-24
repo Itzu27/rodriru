@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+*{
+    padding: 0;
+    margin: 0
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    font-family: sans-serif;
+}
+
+h1{
+    margin: auto;
+    margin-top: 200px;
+}
+
+.button{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-decoration: none;
+    background: #000;
+    color: #ffff;
+    padding: 20px 35px;
+    font-size: 20px;
+}
+
+#si{
+    left: 20%;
+    transform: translateY(-50%) translateX(-15%);
+}
+
+#no{
+    left: 80%;
+    transform: translateY(-50%) translateX(-80%);
+}
+
+/** Navegation Menu **/
+.menu{
+    width: 100%;
+    height: 66px;
+    background: #ffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 4px solid #000000;
+}
+.regreso{display: none;}
+.regreso{margin-left: 50px;}
+.regreso{
+    font-weight: normal;
+    font-size:30px;
+    color:#000;
+}
+.regreso{
+    margin-right:50px; 
+    transition: 0.5s;
+}
+
+
+.regreso {display: flex;}
+.regreso {list-style: none;}
+.regreso a{
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    border-radius: 15px;
+    font-size: 19px;
+    padding:5px;
+    margin:0px 10px;
+    transition: 0.3s;
+    bottom: 15px;
+}
+
+.regreso{
+    background:rgb(85, 0, 52);
+    color:#fff;
+    height: 50px;
+    top: 15px;
+    position: absolute;
+
+}
+
+.regreso :hover{
+    color: rgb(0, 0, 0);
+}
+
